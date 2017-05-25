@@ -1,6 +1,10 @@
-body,ul,li,ol,dl,dt,dd,form,input,h1,h2,h3,h4,h5,h6,p,a{
-    margin:0;
-    padding:0;
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -58,8 +62,8 @@ body{
     padding: 0px;
     width: auto;
     height: 38px;
-    line-height: 38px;
     text-align: center;
+    line-height: 38px;
 }
 
 .nav_ul_li {
@@ -159,7 +163,9 @@ body{
     background-color: #000000;
     background-color: #000000\9;
     filter: alpha(opacity=50);
+    -webkit-opacity: 0.5;
     -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
     opacity: 0.5;
     zoom: 1;
     overflow: auto;
@@ -280,6 +286,7 @@ body{
     margin-top: 16px;
     padding: 0px;
     height: 14px;
+    vertical-align:bottom;/*兼容li高度不一致的问题*/
 }
 
 .news_info_ul a{
