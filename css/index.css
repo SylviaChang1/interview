@@ -96,6 +96,8 @@ body{
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+    behavior: url(PIE.htc); /* 通知IE浏览器调用脚本作用于'box'类 */
+
     /*背景颜色渐变*/
     background:-webkit-gradient(linear, 0 0, 0 100%, from(#f3f3f3), to(#e1e1e1));/*Webkit*/
     background:-moz-linear-gradient(top, #f3f3f3, #e1e1e1);/*Mozilla*/
