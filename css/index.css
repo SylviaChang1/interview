@@ -289,11 +289,7 @@ body{
     /*height: 14px;*/
     height: auto;
     font-size: 0;
-}
-
-.news_info_ul a{
-    font-size: 14px;
-    color: #333333;
+    position: relative;
 }
 
 .arr{
@@ -301,19 +297,26 @@ body{
     vertical-align: text-bottom;
 }
 
-.news_info_time{
-    float: right;
+.news_info_ul a{
     font-size: 14px;
+    color: #333333;
 }
 
-.news_info_time:after{
+.news_info_time{
+    /*float: right;*/
+    font-size: 14px;
+    position: absolute;
+    right: 0px;
+}
+
+/*.news_info_time:after{
     display: block;
     content: "";
     height: 0px;
     clear: both;
     overflow: hidden;
     zoom: 1;
-}
+}*/
 
 
 
