@@ -306,6 +306,15 @@ body{
     font-size: 14px;
 }
 
+.news_info_time:after{
+    display: block;
+    content: "";
+    height: 0px;
+    clear: both;
+    overflow: hidden;
+    zoom: 1;
+}
+
 
 
 
