@@ -99,7 +99,8 @@ body{
     /*背景颜色渐变*/
     background:-webkit-gradient(linear, 0 0, 0 100%, from(#f3f3f3), to(#e1e1e1));/*Webkit*/
     background:-moz-linear-gradient(top, #f3f3f3, #e1e1e1);/*Mozilla*/
-    filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr=#f3f3f3,endColorstr=#e1e1e1);/*IE*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#f3f3f3,endColorstr=#e1e1e1,gradientType=0);/*IE*/
+
 }
 /*头部图片*/
 .headImg{
