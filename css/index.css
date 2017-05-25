@@ -280,13 +280,14 @@ body{
 
 .news_info_ul{
     margin: 0px;
+    padding: 0px;
 }
 
 .news_info_ul li{
-    margin-top: 16px;
+    margin-top: 12px;
     padding: 0px;
-    height: 14px;
-    vertical-align:bottom;/*兼容li高度不一致的问题*/
+    /*height: 14px;*/
+    height: auto;
     font-size: 0;
 }
 
@@ -297,6 +298,7 @@ body{
 
 .arr{
     margin-right: 9px;
+    vertical-align: text-bottom;
 }
 
 .news_info_time{
