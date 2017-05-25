@@ -215,6 +215,7 @@ body{
     text-decoration: none;
     margin-right: 9px;
     float: left;
+    border: none;
 }
 
 .picaction_nav img{
