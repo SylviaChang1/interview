@@ -287,6 +287,7 @@ body{
     padding: 0px;
     height: 14px;
     vertical-align:bottom;/*兼容li高度不一致的问题*/
+    font-size: 0;
 }
 
 .news_info_ul a{
@@ -300,6 +301,7 @@ body{
 
 .news_info_time{
     float: right;
+    font-size: 14px;
 }
 
 
