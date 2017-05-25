@@ -240,8 +240,10 @@ body{
 }
 
 .news_title_info_ul li{
-    display: inline-block;
+    list-style-type: none;
+    display:inline-block;
     width: 79px;
+    float: left;
 }
 
 .selected{
